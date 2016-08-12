@@ -33,5 +33,6 @@ app.get("/", function(req, res) {
 });
 
 app.get("/IBMDomainVerification.html", function(req, res) {
-    return res.render('IBMDomainVerification');
+    //return res.render('IBMDomainVerification');
+    return res.render('IBMDomainVerification_BackupAcct');
 });
